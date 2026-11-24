@@ -1144,6 +1144,7 @@ img{max-width:100%;height:auto}
 .static-page .glossary-card[hidden],.static-page .glossary-group[hidden]{display:none}
 @media(max-width:640px){.static-page .glossary-grid{grid-template-columns:1fr}.static-page .glossary-body{max-width:none}}
 
+
 .static-page .article-audio{margin:26px 0;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:var(--surface-2)}
 .static-page .article-audio figcaption{margin-top:8px;color:var(--muted);font-size:11.5px;line-height:1.55}
 .static-page .article-audio audio{display:block;width:100%}

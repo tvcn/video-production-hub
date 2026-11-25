@@ -5,7 +5,7 @@
     --surface: #fbfaf7;
     --surface-2: #ebe5dc;
     --ink: #171513;
-    --muted: #6f675d;
+    --muted: #6b645a;
     --line: rgba(23, 21, 19, .14);
     --line-strong: rgba(23, 21, 19, .24);
     --accent: #b04421;
@@ -532,7 +532,7 @@
   .page-head p { color: var(--muted); max-width: 690px; font-size: 15px; }
   .breadcrumbs { display: flex; flex-wrap: wrap; gap: 8px; font-size: 11px; color: var(--muted); margin: 22px 0 20px; }
   .breadcrumbs a:hover { color: var(--accent); }
-  .breadcrumbs span { opacity: .5; }
+  .breadcrumbs span { opacity: 1; }
 
   .path-hero { display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: end; padding: 16px 0 28px; border-bottom: 1px solid var(--line); }
   .path-hero h1 { font-size: clamp(32px, 5vw, 58px); line-height: 1.03; margin: 12px 0; }
@@ -1201,3 +1201,8 @@ img{max-width:100%;height:auto}
 
 
 .static-page .home-lead{display:block!important;width:100%!important;max-width:100%!important;white-space:normal!important;overflow-wrap:anywhere!important}
+
+/* 2026-11-25: legacy spec tables must not force page-level overflow at 390px */
+.article-body .spec-table { table-layout: fixed; width: 100%; max-width: 100%; }
+.article-body .spec-table th,
+.article-body .spec-table td { overflow-wrap: anywhere; word-break: break-word; }

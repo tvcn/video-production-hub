@@ -1000,36 +1000,21 @@
   .tab-site-link { font-size: 10px; letter-spacing: .04em; text-align: center; }
 
 </style>
+<link rel="stylesheet" href="/assets/app-shell.css?v=20261125a">
 </head>
-<body>
-<a class="skip-link" href="#main">跳到正文 / Skip to content</a>
+<body class="static-page">
+<a class="skip-link" href="#main">跳到正文</a>
 
-<header class="site-header">
-  <div class="header-inner">
-    <a class="brand" href="?r=" aria-label="TVCN">
-      <span class="brand-mark">TV</span>
-      <span class="brand-text">
-        <strong>TVCN</strong>
-        <small data-i18n="brandSub">影像制作知识库</small>
-      </span>
-    </a>
-    <nav class="desktop-nav site-nav" aria-label="站点导航 / Site navigation">
-      <a class="site-nav-link" href="https://tvcn.org/" data-site-nav="main" data-i18n="site1">主站</a>
-      <a class="site-nav-link" href="https://story.tvcn.org/" data-site-nav="story" data-i18n="site2">故事</a>
-      <a class="site-nav-link" href="https://shoot.tvcn.org/" data-site-nav="shoot" data-i18n="site3">拍摄</a>
-      <a class="site-nav-link" href="https://post.tvcn.org/" data-site-nav="post" data-i18n="site4">后期</a>
-      <a class="site-nav-link" href="https://ai.tvcn.org/" data-site-nav="ai" data-i18n="site5">AI</a>
-      <a class="site-nav-link" href="https://animation.tvcn.org/" data-site-nav="animation" data-i18n="site6">动画</a>
-      <a class="site-nav-link" href="https://formats.tvcn.org/" data-site-nav="formats" data-i18n="site7">片型</a>
-      <a class="site-nav-link" href="https://tools.tvcn.org/" data-site-nav="tools" data-i18n="site8">工具</a>
-      <a class="site-nav-link" href="https://context.tvcn.org/" data-site-nav="context" data-i18n="site9">影像史</a>
+<header class="static-header">
+  <div class="static-header-inner">
+    <a class="static-brand" href="/" aria-label="TVCN">TVCN<span data-i18n="brandSub">影像制作知识库</span></a>
+    <nav class="static-nav site-nav" aria-label="站点导航">
+      <a class="site-nav-link" href="https://tvcn.org/" data-site-nav="main" data-i18n="site1" aria-current="page">主站</a><a class="site-nav-link" href="https://story.tvcn.org/" data-site-nav="story" data-i18n="site2">故事</a><a class="site-nav-link" href="https://shoot.tvcn.org/" data-site-nav="shoot" data-i18n="site3">拍摄</a><a class="site-nav-link" href="https://post.tvcn.org/" data-site-nav="post" data-i18n="site4">后期</a><a class="site-nav-link" href="https://ai.tvcn.org/" data-site-nav="ai" data-i18n="site5">AI</a><a class="site-nav-link" href="https://animation.tvcn.org/" data-site-nav="animation" data-i18n="site6">动画</a><a class="site-nav-link" href="https://formats.tvcn.org/" data-site-nav="formats" data-i18n="site7">片型</a><a class="site-nav-link" href="https://tools.tvcn.org/" data-site-nav="tools" data-i18n="site8">工具</a><a class="site-nav-link" href="https://context.tvcn.org/" data-site-nav="context" data-i18n="site9">影像史</a>
+      <a class="icon-btn search-btn" href="/search/" aria-label="搜索全站" data-i18n="navSearch">搜索</a>
+      <button class="icon-btn lang-btn" id="langBtn" type="button" aria-label="切换语言">EN</button>
+      <button class="icon-btn theme-toggle" id="themeBtn" type="button" data-theme-toggle aria-label="切换明暗">明暗</button>
+      <button class="icon-btn mobile-only" id="menuBtn" type="button" aria-label="菜单" aria-expanded="false" aria-controls="menuPanel" hidden></button>
     </nav>
-    <div class="header-actions">
-      <button class="icon-btn lang-btn" id="langBtn" type="button" aria-label="切换语言 / Switch language"></button>
-      <button class="icon-btn" id="themeBtn" type="button"></button>
-      <button class="icon-btn" id="searchBtn" type="button" aria-label="搜索 / Search"><span data-icon="search"></span></button>
-      <button class="icon-btn mobile-only" id="menuBtn" type="button" aria-label="菜单 / Menu" aria-expanded="false" aria-controls="menuPanel"></button>
-    </div>
   </div>
 </header>
 
@@ -1039,38 +1024,15 @@
 
 <main id="main" tabindex="-1"></main>
 
-<footer class="site-footer">
-  <div class="wrap footer-inner">
-    <nav class="footer-sites" aria-label="页脚站点导航 / Footer site navigation">
-      <a class="footer-site-link" href="https://tvcn.org/" data-site-nav="main" data-i18n="site1">主站</a>
-      <a class="footer-site-link" href="https://story.tvcn.org/" data-site-nav="story" data-i18n="site2">故事</a>
-      <a class="footer-site-link" href="https://shoot.tvcn.org/" data-site-nav="shoot" data-i18n="site3">拍摄</a>
-      <a class="footer-site-link" href="https://post.tvcn.org/" data-site-nav="post" data-i18n="site4">后期</a>
-      <a class="footer-site-link" href="https://ai.tvcn.org/" data-site-nav="ai" data-i18n="site5">AI</a>
-      <a class="footer-site-link" href="https://animation.tvcn.org/" data-site-nav="animation" data-i18n="site6">动画</a>
-      <a class="footer-site-link" href="https://formats.tvcn.org/" data-site-nav="formats" data-i18n="site7">片型</a>
-      <a class="footer-site-link" href="https://tools.tvcn.org/" data-site-nav="tools" data-i18n="site8">工具</a>
-      <a class="footer-site-link" href="https://context.tvcn.org/" data-site-nav="context" data-i18n="site9">影像史</a>
-    </nav>
-    <div class="footer-meta"><div><strong>TVCN</strong><span data-i18n="footerNote">影像制作知识库 · 中英双语</span></div>
-    <div><span data-i18n="footerLicense">内容 CC BY-SA 4.0 · 代码 MIT</span><span data-i18n="footerPrototype">已上线 · 2026-11-23</span></div></div>
-    <div class="footer-links"><a href="?r=about" data-i18n="footerAbout">关于与许可</a><a href="?r=trust" data-i18n="footerTrust">信任与更正</a><a href="?r=trust/terms" data-i18n="footerTerms">使用条款</a></div>
+<footer class="static-footer">
+  <nav class="footer-sites" aria-label="页脚站点导航"><a class="footer-site-link" href="https://tvcn.org/" data-site-nav="main" data-i18n="site1" aria-current="page">主站</a><a class="footer-site-link" href="https://story.tvcn.org/" data-site-nav="story" data-i18n="site2">故事</a><a class="footer-site-link" href="https://shoot.tvcn.org/" data-site-nav="shoot" data-i18n="site3">拍摄</a><a class="footer-site-link" href="https://post.tvcn.org/" data-site-nav="post" data-i18n="site4">后期</a><a class="footer-site-link" href="https://ai.tvcn.org/" data-site-nav="ai" data-i18n="site5">AI</a><a class="footer-site-link" href="https://animation.tvcn.org/" data-site-nav="animation" data-i18n="site6">动画</a><a class="footer-site-link" href="https://formats.tvcn.org/" data-site-nav="formats" data-i18n="site7">片型</a><a class="footer-site-link" href="https://tools.tvcn.org/" data-site-nav="tools" data-i18n="site8">工具</a><a class="footer-site-link" href="https://context.tvcn.org/" data-site-nav="context" data-i18n="site9">影像史</a></nav>
+  <div class="static-footer-inner">
+    <span data-i18n="footerLicense">文字与图解 CC BY-SA 4.0 · 代码 MIT</span>
+    <span><a href="/about/" data-i18n="footerAbout">关于与编辑标准</a> · <a href="/glossary/">术语表</a> · <a href="/about/#corrections" data-i18n="footerTrust">信任与更正</a> · <a href="/app/" rel="nofollow">交互版</a> · <a href="/topics/">主题</a> · <a href="/search/" data-i18n="navSearch">搜索</a> · <a href="/">TVCN</a> · 2026-11-25</span>
   </div>
 </footer>
 
-<nav class="tabbar" aria-label="底部站点导航 / Bottom site navigation">
-  <div class="tabbar-inner">
-    <a class="tab-link tab-site-link" href="https://tvcn.org/" data-site-nav="main" data-i18n="site1">主站</a>
-    <a class="tab-link tab-site-link" href="https://story.tvcn.org/" data-site-nav="story" data-i18n="site2">故事</a>
-    <a class="tab-link tab-site-link" href="https://shoot.tvcn.org/" data-site-nav="shoot" data-i18n="site3">拍摄</a>
-    <a class="tab-link tab-site-link" href="https://post.tvcn.org/" data-site-nav="post" data-i18n="site4">后期</a>
-    <a class="tab-link tab-site-link" href="https://ai.tvcn.org/" data-site-nav="ai" data-i18n="site5">AI</a>
-    <a class="tab-link tab-site-link" href="https://animation.tvcn.org/" data-site-nav="animation" data-i18n="site6">动画</a>
-    <a class="tab-link tab-site-link" href="https://formats.tvcn.org/" data-site-nav="formats" data-i18n="site7">片型</a>
-    <a class="tab-link tab-site-link" href="https://tools.tvcn.org/" data-site-nav="tools" data-i18n="site8">工具</a>
-    <a class="tab-link tab-site-link" href="https://context.tvcn.org/" data-site-nav="context" data-i18n="site9">影像史</a>
-  </div>
-</nav>
+<nav class="static-tabbar" aria-label="底部站点导航"><a class="tab-site-link" href="https://tvcn.org/" data-site-nav="main" data-i18n="site1" aria-current="page">主站</a><a class="tab-site-link" href="https://story.tvcn.org/" data-site-nav="story" data-i18n="site2">故事</a><a class="tab-site-link" href="https://shoot.tvcn.org/" data-site-nav="shoot" data-i18n="site3">拍摄</a><a class="tab-site-link" href="https://post.tvcn.org/" data-site-nav="post" data-i18n="site4">后期</a><a class="tab-site-link" href="https://ai.tvcn.org/" data-site-nav="ai" data-i18n="site5">AI</a><a class="tab-site-link" href="https://animation.tvcn.org/" data-site-nav="animation" data-i18n="site6">动画</a><a class="tab-site-link" href="https://formats.tvcn.org/" data-site-nav="formats" data-i18n="site7">片型</a><a class="tab-site-link" href="https://tools.tvcn.org/" data-site-nav="tools" data-i18n="site8">工具</a><a class="tab-site-link" href="https://context.tvcn.org/" data-site-nav="context" data-i18n="site9">影像史</a></nav>
 
 <script>
 const ICONS = {
@@ -8358,8 +8320,7 @@ function applyTheme() {
   if (meta) meta.setAttribute("content", resolved === "dark" ? "#0d100f" : "#f4f1eb");
   const btn = document.getElementById("themeBtn");
   if (btn) {
-    const icon = state.theme === "auto" ? ICONS.auto : state.theme === "dark" ? ICONS.moon : ICONS.sun;
-    btn.innerHTML = icon;
+    btn.textContent = state.lang === "en" ? "Theme" : "明暗";
     btn.setAttribute("aria-label", t("themeToggle") + " · " + t("theme" + state.theme.charAt(0).toUpperCase() + state.theme.slice(1)));
     btn.setAttribute("title", t("themeAuto") + " / " + t("themeLight") + " / " + t("themeDark"));
   }
@@ -8370,9 +8331,10 @@ function applyI18n() {
   document.querySelectorAll("[data-i18n-aria]").forEach((el) => { el.setAttribute("aria-label", t(el.dataset.i18nAria)); });
   const langBtn = document.getElementById("langBtn");
   if (langBtn) {
-    langBtn.innerHTML = `<span class="${state.lang === "zh" ? "on" : ""}">中</span><span> / </span><span class="${state.lang === "en" ? "on" : ""}">EN</span>`;
-    langBtn.setAttribute("aria-label", "切换语言 / Switch language");
-  }
+    langBtn.textContent = state.lang === "zh" ? "EN" : "中文";
+    langBtn.setAttribute("aria-label", state.lang === "zh" ? "切换语言" : "Switch language");  }
+  const themeBtn = document.getElementById("themeBtn");
+  if (themeBtn) themeBtn.textContent = state.lang === "en" ? "Theme" : "明暗";
   const menuBtn = document.getElementById("menuBtn");
   if (menuBtn) {
     menuBtn.innerHTML = ICONS.menu;
@@ -9885,17 +9847,17 @@ function trustIndexView() {
   return `<div class="wrap">
     <header class="page-head"><p class="eyebrow">TRUST / 06</p><h1>${dg("先把信任写清楚", "Write trust down first")}</h1><p>${dg("编辑标准、来源、更正、隐私、许可、使用条款；六页都不是装饰，是内容库的边界。", "Standards, sources, corrections, privacy, license, and terms. Six pages, not decoration: they are the boundaries of the library.")}</p></header>
     <div class="trust-grid">${pages.map(([id, page]) => `<a class="trust-card" href="?r=trust/${esc(id)}"><p class="eyebrow">${esc(page.num)} / TRUST</p><h2>${esc(tr(page.name))}</h2><p>${esc(tr(page.lead))}</p></a>`).join("")}</div>
-    <div class="trust-links"><a class="btn btn-ghost" href="?r=about">${dg("关于 TVCN", "About TVCN")} ${ICONS.arrow}</a><a class="btn btn-ghost" href="?r=templates">${dg("下载模板", "Templates")} ${ICONS.arrow}</a></div>
+    <div class="trust-links"><a class="btn btn-ghost" href="/about/">${dg("关于 TVCN", "About TVCN")} ${ICONS.arrow}</a><a class="btn btn-ghost" href="?r=templates">${dg("下载模板", "Templates")} ${ICONS.arrow}</a></div>
   </div>`;
 }
 function trustPageView(id) {
   const page = TRUST_PAGES[id];
   if (!page) return notFoundView();
   return `<div class="wrap">
-    <div class="breadcrumbs"><a href="?r=">${esc(t("tabHome"))}</a><span>/</span><a href="?r=trust">TRUST</a><span>/</span><span>${esc(tr(page.name))}</span></div>
+    <div class="breadcrumbs"><a href="?r=">${esc(t("tabHome"))}</a><span>/</span><a href="/about/#corrections">TRUST</a><span>/</span><span>${esc(tr(page.name))}</span></div>
     <header class="page-head"><p class="eyebrow">TRUST ${esc(page.num)} / 06</p><h1>${esc(tr(page.name))}</h1><p>${esc(tr(page.lead))}</p><div class="trust-meta"><span>${dg("最后更新", "Last updated")} ${esc(page.updated)}</span><span>${dg("已上线", "Live")}</span></div></header>
     <div class="trust-body">${page.sections.map((section) => `<section><h2>${esc(tr(section.title))}</h2>${tr(section.body)}</section>`).join("")}</div>
-    <div class="trust-links">${page.links.map((link) => `<a class="btn btn-ghost" href="${esc(link.href)}">${esc(tr(link.label))} ${ICONS.arrow}</a>`).join("")}<a class="btn btn-ghost" href="?r=trust">${dg("全部信任页", "All trust pages")} ${ICONS.arrow}</a></div>
+    <div class="trust-links">${page.links.map((link) => `<a class="btn btn-ghost" href="${esc(link.href)}">${esc(tr(link.label))} ${ICONS.arrow}</a>`).join("")}<a class="btn btn-ghost" href="/about/#corrections">${dg("全部信任页", "All trust pages")} ${ICONS.arrow}</a></div>
   </div>`;
 }
 function structureGlyph(kind) {
@@ -9928,7 +9890,7 @@ function structuresView() {
 function notFoundView() {
   return `<div class="wrap">
     <header class="page-head"><p class="eyebrow">404 / NOT FOUND</p><h1>${esc(t("notFoundTitle"))}</h1><p>${esc(t("notFoundText"))}</p></header>
-    <div class="about-links"><a class="btn btn-primary" href="?r=">${esc(t("tabHome"))} ${ICONS.arrow}</a><a class="btn btn-ghost" href="?r=search">${esc(t("tabSearch"))} ${ICONS.arrow}</a></div>
+    <div class="about-links"><a class="btn btn-primary" href="?r=">${esc(t("tabHome"))} ${ICONS.arrow}</a><a class="btn btn-ghost" href="/search/">${esc(t("tabSearch"))} ${ICONS.arrow}</a></div>
   </div>`;
 }
 function articleNav(article) {
@@ -9940,7 +9902,7 @@ function articleNav(article) {
   return `<nav class="article-nav"><a href="?r=article/${esc(prev.id)}"><span class="mono">${state.lang === "zh" ? "上一篇" : "PREVIOUS"}</span>${esc(tr(prev.title))}</a><a href="?r=article/${esc(next.id)}"><span class="mono">${state.lang === "zh" ? "下一篇" : "NEXT"}</span>${esc(tr(next.title))}</a></nav>`;
 }
 function menuView() {
-  return `<p class="menu-kicker">站点 / 9</p><div class="menu-grid"><a class="menu-site" href="https://tvcn.org/" data-site-nav="main"><strong>主站 · TVCN</strong><small>tvcn.org</small></a>${SITES.map((site) => `<a class="menu-site" href="https://${esc(site.domain)}/" data-site-nav="${esc(site.id)}"><strong>${esc(tr(site.name))}</strong><small>${esc(site.domain)}</small></a>`).join("")}</div>`;
+  return `<p class="menu-kicker">站点 / 9</p><div class="menu-grid"><a class="menu-site" href="https://tvcn.org/" data-site-nav="main" aria-current="page"><strong>主站 · TVCN</strong><small>tvcn.org</small></a>${SITES.map((site) => `<a class="menu-site" href="https://${esc(site.domain)}/" data-site-nav="${esc(site.id)}"><strong>${esc(tr(site.name))}</strong><small>${esc(site.domain)}</small></a>`).join("")}</div>`;
 }
 function renderMenu() {
   const inner = document.getElementById("menuInner");
@@ -10374,7 +10336,8 @@ function onHashChange() {
 }
 document.getElementById("langBtn").addEventListener("click", toggleLang);
 document.getElementById("themeBtn").addEventListener("click", cycleTheme);
-document.getElementById("searchBtn").addEventListener("click", () => { const params = new URLSearchParams(location.search); params.set("r", "search"); location.search = params.toString(); });
+const searchBtn = document.getElementById("searchBtn");
+if (searchBtn) searchBtn.addEventListener("click", () => { const params = new URLSearchParams(location.search); params.set("r", "search"); location.search = params.toString(); });
 document.getElementById("menuBtn").addEventListener("click", toggleMenu);
 document.addEventListener("keydown", handleMenuKeydown);
 document.addEventListener("click", (event) => {
@@ -10459,4 +10422,5 @@ render();
 </script>
 </body>
 </html>
+
 

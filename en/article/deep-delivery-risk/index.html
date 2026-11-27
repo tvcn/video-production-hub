@@ -51,12 +51,9 @@
 <main id="main" class="static-main" tabindex="-1">
 <div class="wrap">
   <div class="breadcrumbs"><a href="../../../en/">Home</a><span>/</span><a href="https://tvcn.org/">Main</a><span>/</span><span>Delivery Risk: From Master to Client Sign-Off</span></div>
-  <header class="article-hero"><p class="eyebrow">Producing / Delivery</p><h1>Delivery Risk: From Master to Client Sign-Off</h1><p class="article-deck">Delivery is not pressing export. It is a traceable chain from one master through platform specs and derived versions to a client receipt.</p><div class="article-meta"><span>6 min read · Intermediate</span><span><a href="../../../en/about/#desk-main">TVCN Editorial</a></span><span>Edited 2026-11</span></div></header><nav class="article-toc" aria-label="On this page"><span class="toc-label">On this page</span><ol><li><a href="#diagram">Diagram</a></li><li><a href="#section-1">On location</a></li><li><a href="#section-2">What to look for</a></li><li><a href="#section-3">What to do</a></li><li><a href="#section-4">Failure modes</a></li><li><a href="#section-5">Limits</a></li><li><a href="#section-6">Check</a></li><li><a href="#section-8">Deep dive</a></li><li><a href="#section-9">Further reading</a></li><li><a href="#section-10">Related</a></li></ol></nav>
+  <header class="article-hero"><p class="eyebrow">Producing / Delivery</p><h1>Delivery Risk: From Master to Client Sign-Off</h1><p class="article-deck">Delivery is not pressing export. It is a traceable chain from one master through platform specs and derived versions to a client receipt.</p><div class="article-meta"><span>6 min read · Intermediate</span><span><a href="../../../en/about/#desk-main">TVCN Editorial</a></span><span>Edited 2026-11</span></div></header><nav class="article-toc" aria-label="On this page"><span class="toc-label">On this page</span><ol><li><a href="#section-1">On location</a></li><li><a href="#section-2">What to look for</a></li><li><a href="#section-3">What to do</a></li><li><a href="#section-4">Failure modes</a></li><li><a href="#section-5">Limits</a></li><li><a href="#section-6">Check</a></li><li><a href="#section-7">Deep dive</a></li><li><a href="#section-8">Further reading</a></li><li><a href="#section-9">Related</a></li></ol></nav>
   <article class="article-body"><p>The team relaxes when the cut is done; risk starts exactly there. Who holds the master, which version the platform wants, and whether “received” means approved — if any one is vague, rework lands in the last hour.</p>
-<!-- DIAGRAM_START -->
-<h2 id="diagram">Diagram</h2>
 
-<!-- DIAGRAM_END -->
 
 <section><h2 id="section-1">On location</h2><p>An eight-minute film needs four versions: landscape master, vertical 60-second cut, platform 4K and a 1080p internal copy. The editor names the file `final_v3_ok.mp4` and sends it by chat; the client replies “received”. Two weeks later the platform rejects the vertical safe area, and the client says they approved content, not dimensions. The team re-exports and discovers the colourist has already changed the master.</p></section>
 <section><h2 id="section-2">What to look for</h2><ul><li><strong>The master is not unique:</strong> the project still holds `final_v4` and `final_v4_really`; nobody knows which is the delivery source.</li><li><strong>Specs live only in chat:</strong> resolution, bitrate, safe area and loudness have no sheet, so a platform rejection turns into guesswork.</li><li><strong>The receipt has no scope:</strong> the client says “received/OK” without saying whether they approved picture, dimensions, subtitles or music.</li></ul></section>
@@ -65,7 +62,7 @@
 <section><h2 id="section-5">Limits</h2><p>This applies to projects with a platform, a client and multiple versions. It does not replace the acceptance clause in the contract or the platform review. If the client insists on seeing it first, send a low-resolution review copy, label it as not for delivery, and include timecode and a watermark.</p></section>
 <section><h2 id="section-6">Check</h2><ul><li>There is one master tag; every other file traces back to it.</li><li>The spec sheet covers every delivery target and matches the actual files.</li><li>The client receipt names each approved item, not just “received”.</li><li>The package has a manifest, checksums and an expiry.</li></ul></section>
 <!-- DEEP_DIVE_START -->
-<h2 id="section-8">Deep dive</h2>
+<h2 id="section-7">Deep dive</h2>
 <p><strong>About 8 minutes.</strong> This section places the same judgement in two different conditions, then gives a counterexample and a reusable model. It does not repeat the page; it decides when to change the method.</p>
 <h3>Condition A: direct platform delivery</h3>
 <p>For direct platform delivery, the spec sheet is the gate. Copy the current platform spec into your own sheet instead of trusting last time; every field needs a source and date. Check the export with tools, not eyes: resolution, frame rate, bitrate, gamut, loudness, subtitles and filename. Put the results in the package so a rejection points to a field.</p>
@@ -79,19 +76,22 @@
 <h3>Reusable model</h3>
 <p><strong>Master → spec sheet → derivatives → manifest → receipt.</strong> One master; specs in rows by target; derivatives from the master; a manifest that makes files verifiable; a receipt that scopes approval. If one link is missing, delivery was sent, not completed.</p>
 <p>At wrap, put the manifest, receipt and master tag into the archive package. Open that package before opening chat history on the next delivery. The most valuable item is not the video; it is the reusable spec sheet and receipt template.</p>
-<!-- DEEP_DIVE_END --><p class="media-disclosure"><strong>Image note.</strong> Covers, diagrams and step images on this page are editorial illustrations or structure diagrams, not photographs of a test performed here; they are not evidence of measured gear performance. Where an image is AI-assisted, the caption says so. Read the test conditions in the text before treating an image as proof.</p></article><figure class="diagram" data-image-nature="editorial-illustration">
+<!-- DEEP_DIVE_END -->
+<p class="media-disclosure"><strong>Image note.</strong> Covers, diagrams and step images on this page are editorial illustrations or structure diagrams, not photographs of a test performed here; they are not evidence of measured gear performance. Where an image is AI-assisted, the caption says so. Read the test conditions in the text before treating an image as proof.</p></article><figure class="diagram" data-image-nature="editorial-illustration">
   <img src="../../../assets/notes/deep-delivery-risk-en.svg" alt="Check whether master, specs, derivatives and receipt are separate. If any link depends on chat history, delivery is not complete.">
   <figcaption>Check whether master, specs, derivatives and receipt are separate. If any link depends on chat history, delivery is not complete. <span class="fig-nature">Editorial illustration, not a test photograph from this page.</span></figcaption>
 </figure>
-  <aside class="article-sources" data-source-kind="sourced">
+  
+
+<aside class="article-sources" data-source-kind="sourced">
 <div class="article-credit-head"><p class="eyebrow">Sources / 来源</p><span class="mono">Public references and field review</span></div>
 <p class="source-types">This page separates field judgement from public references; where there is no external source, it states the field limits.</p>
-<h2 id="section-9">Further reading</h2>
+<h2 id="section-8">Further reading</h2>
 <ul>
 <li>[S28] <a href="https://partnerhelp.netflixstudios.com/">Netflix Partner Help: Netflix Partner Help</a> — accessed 2026-11-26. Used to check the terms, method or rule in the “What to look for” section; not the page's field numbers, gear models or conclusions, and not a substitute for a test or contract.</li>
 <li>[S29] <a href="https://support.google.com/youtube/answer/1722171">YouTube Upload Specs: YouTube Upload Specs</a> — accessed 2026-11-26. Used to check the terms, method or rule in the “Limits” section; not the page's field numbers, gear models or conclusions, and not a substitute for a test or contract.</li>
 </ul></aside>
-<div class="related"><h2 id="section-10">Related</h2><ul><li><a href="../../../en/article/method-client-revision/">The Client Keeps Revising</a></li><li><a href="../../../en/article/method-deadline/">There Is No Time</a></li><li><a href="../../../en/article/deep-master-delivery/">Master delivery: master, QC, platform</a></li></ul></div>
+<div class="related"><h2 id="section-9">Related</h2><ul><li><a href="../../../en/article/method-client-revision/">The Client Keeps Revising</a></li><li><a href="../../../en/article/method-deadline/">There Is No Time</a></li><li><a href="https://post.tvcn.org/en/article/deep-master-delivery/">Master delivery: master, QC, platform</a></li></ul></div>
 </div>
 </main>
 <footer class="static-footer">
